@@ -1,36 +1,36 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>My Web</title>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="res/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="res/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="res/bootstrap-grid.css">
-<link rel="stylesheet" type="text/css" href="res/bootstrap-grid.min.css">
-<link rel="stylesheet" type="text/css" href="res/bootstrap-reboot.css">
-<link rel="stylesheet" type="text/css" href="res/bootstrap-reboot.min.css">
-<link rel="stylesheet" type="text/css" href="style.css">
-<script type="text/javascript" src="res/bootstrap.bundle.js"></script>
-<script type="text/javascript" src="res/bootstrap.bundle.min.js"></script>
-<script type="text/javascript" src="res/bootstrap.js"></script>
-<script type="text/javascript" src="res/bootstrap.min.js"></script>
-<script type="text/javascript" src="res/bootstrap-337.min.js"></script>
-<script type="text/javascript" src="res/jquery-331.min.js"></script>
-  </head>
-  <body>
-    <div class="container">
-	<div class="jumbotron">
-		<h3>wingxel.dev</h3>
-		<ul>
-		<li><a href="#">Home</a></li>
-		<li><a href="#">Downloads</a></li>
-		<li><a href="#">News</a></li>
-		<li><a href="#">Website</a></li>
-	</ul>
-	</div>
-</div>
+<script type="text/javascript">
+function includeHTML() {
+var z, i, elmnt, file, xhttp;
+/* Loop through a collection of all HTML elements: */
+z = document.getElementsByTagName("*");
+for (i = 0; i < z.length; i++) {
+ elmnt = z[i];
+ /*search for elements with a certain atrribute:*/
+ file = elmnt.getAttribute("w3-include-html");
+ if (file) {
+   /* Make an HTTP request using the attribute value as the file name: */
+   xhttp = new XMLHttpRequest();
+   xhttp.onreadystatechange = function() {
+     if (this.readyState == 4) {
+       if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+       if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+       /* Remove the attribute, and call this function once more: */
+       elmnt.removeAttribute("w3-include-html");
+       includeHTML();
+     }
+   }
+   xhttp.open("GET", file, true);
+   xhttp.send();
+   /* Exit the function: */
+   return;
+ }
+}
+}
+</script>
+ <div w3-include-html="header.html"></div>
+ <script>
+includeHTML();
+</script> 
 <div class="container">
 
   <div class="row">
