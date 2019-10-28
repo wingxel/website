@@ -18,3 +18,8 @@ li a{
 li a:hover{
 	background-color: #111;
 }
+
+.foot{
+	background-color: black;
+	color: white;
+}
