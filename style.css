@@ -1,25 +1,37 @@
-ul{
+.ulo{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	background-color: #333;
 }
-li{
+.lio{
 	float: left;
 }
-li a{
+.lio a{
 	display: block;
 	color:white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
-li a:hover{
+.lio a:hover{
 	background-color: #111;
 }
 
 .foot{
 	background-color: black;
 	color: white;
+}
+
+.contenti{
+	font-style: italic;
+	border-top: 2px solid green;
+	border-bottom: 2px solid green;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+img{
+	border-radius: 50%;
 }
