@@ -48,16 +48,27 @@ and open the template in the editor.
         <script type="text/javascript">
 
             <!--
-                function validateForm()
-                {
+                function validateForm(){
                     if(document.dataInfo.user.value.trim().length == 0 ||
                         document.dataInfo.mail.value.trim().length == 0 ||
-                        document.dataInfo.msg.value.trim().length == 0)
-                    {
+                        document.dataInfo.msg.value.trim().length == 0){
                         alert("Please enter data in all fields in the form!");
                         return;
                     }
                 }
+
+                function goToFacebook(){
+                    window.location = "https://www.facebook.com/reuben.wachira.3133";
+                }
+
+                function gotToTwitter(){
+                    window.location = "https://www.twitter.com/wingxel";
+                }
+
+                function goToInstagram(){
+                    window.location = "https://www.instagram.com/wingxell";
+                }
+
 
             //-->
 
@@ -374,7 +385,7 @@ and open the template in the editor.
                     <h5 class="text-uppercase">wingxel</h5>
                     
                     
-                    <a href="https://www.facebook.com/wingxel-103023538065320/">My facebook page.</a>
+                    <a href="https://www.facebook.com/wingxel-103023538065320/" class="fa fa-facebook">My facebook page.</a>
 
                 </div>
                 <!-- Grid column -->
