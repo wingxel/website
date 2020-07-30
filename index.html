@@ -44,10 +44,14 @@
 
             <!--
                 function validateForm(){
-                    if(document.dataInfo.user.value.trim().length == 0 ||
-                        document.dataInfo.mail.value.trim().length == 0 ||
-                        document.dataInfo.msg.value.trim().length == 0){
-                        alert("Please enter data in all fields in the form!");
+                    if(document.dataInfo.user.value.trim().length == 0){
+                        alert("You didn't enter the name!");
+                        return;
+                    }else if (document.dataInfo.mail.value.trim().length == 0) {
+                        alert("Please provide your email address!");
+                        return;
+                    }else if (document.dataInfo.msg.value.trim().length == 0) {
+                        alert("Message field is empty!");
                         return;
                     }
                 }
