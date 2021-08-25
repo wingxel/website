@@ -1,0 +1,20 @@
+/* Show it is fixed to the top */
+/*
+* @wingxel
+*/
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+
+#min_cnt{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    text-decoration: none;
+}
+
+h3{
+    color: rgb(0, 45, 128);
+}
