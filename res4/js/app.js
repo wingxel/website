@@ -1,9 +1,5 @@
 "use strict";
 
-/*
-* @wingxel
-*/
-
 $(() => {
     const form = document.getElementById("search_form");
     let not_found = document.getElementById("result");
