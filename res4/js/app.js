@@ -33,4 +33,9 @@ $(() => {
             event.preventDefault();
         });
     }
+
+    $("#navbarCollapse").on("show.bs.collapse", () =>
+        $("a.nav-link").click(() => 
+        $("#navbarCollapse").collapse("hide"))
+    );
 });
