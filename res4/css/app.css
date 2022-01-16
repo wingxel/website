@@ -9,8 +9,25 @@ body {
 
 a{
     text-decoration: none;
+    color: rgb(50, 17, 58);
 }
 
 h3{
-    color: rgb(0, 45, 128);
+    color: rgb(2, 47, 129);
+}
+
+#Android_app_1 :hover, #Linux_app_1 :hover, #Windows_app_1 :hover, #Mail :hover, #Fb :hover {
+    background-color: rgb(8, 61, 8);
+    padding: 10px;
+    color: rgb(255, 253, 253);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+#Cont {
+    list-style-type:square;
+}
+
+#Exprnc {
+    list-style-type:square;
 }
