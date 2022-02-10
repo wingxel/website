@@ -3,23 +3,40 @@ body {
     padding-top: 4.5rem;
 }
 
+h6 {
+    text-align: center;
+    color: green;
+}
+
 #min_cnt{
     font-family: 'Courier New', Courier, monospace;
 }
 
 a{
     text-decoration: none;
-    color: rgb(50, 17, 58);
+    color: rgb(255, 81, 0);
+}
+
+.d_loadA {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#app1, #app2, #app3, #app4, #app5, #app6, #app7 {
+    background-color: rgb(8, 8, 8);
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
 }
 
 h3{
-    color: rgb(2, 47, 129);
+    color: rgb(255, 145, 1);
 }
 
-#Android_app_1 :hover, #Linux_app_1 :hover, #Windows_app_1 :hover, #Mail :hover, #Fb :hover {
+#Android_app_1 :hover, #Linux_app_1 :hover, #Windows_app_1 :hover, #Mail :hover, #Fb :hover, 
+#Linux_app_2 :hover, #Linux_app_3 :hover, #Windows_app_2 :hover, #Windows_app_3 :hover {
     background-color: rgb(8, 61, 8);
     padding: 10px;
-    color: rgb(255, 253, 253);
+    color: rgb(255, 255, 255);
     border-radius: 5px;
     box-shadow: 2px 2px 2px 2px grey;
 }
@@ -30,4 +47,9 @@ h3{
 
 #Exprnc {
     list-style-type:square;
+}
+
+body {
+    background-color: black;
+    color: rgb(255, 255, 255);
 }

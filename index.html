@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +10,7 @@
 
     <script src="res4/js/ven/jquery-3.6.0.min.js" type="text/javascript"></script>
     <script src="res4/js/ven/bootstrap.min.js" type="text/javascript"></script>
-    
+
     <link rel="stylesheet" href="res4/css/ven/bootstrap.min.css">
 
     <script src="res4/js/app.js" type="text/javascript"></script>
@@ -19,7 +20,7 @@
 
 <body>
     <main id="min_cnt">
-        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="https://github.com/wingxel">GitHub</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -48,81 +49,42 @@
         </nav>
         <p id="home"></p>
         <hr>
-        <div class="container-fluid">
+        <div class="container-fluid" style="background-image: url(img/two.jpg);">
             <div class="row">
-                <div class="col-sm-8">
-                    <img class="rounded" src="img/io.jpg" alt="Sample" width="100%">
-                    <div class="p-5 mb-4 bg-light rounded-3">
-                        <div class="container-fluid py-5">
-                            <h1 class="display-5 fw-bold" id="contacts">Contacts</h1>
-                            <p class="col-md-8 fs-5">You can contact me via the following links:</p>
-                            <ul id="Cont">
-                                <li id="Mail">
-                                    <!--<img src="img/mail-app.png" alt="inst" width="3%">-->
-                                    <a href="mailto:wingxel@gmail.com">Email</a>
-                                </li>
-                                <li id="Fb">
-                                    <!--<img src="img/facebook.png" alt="fcb" width="3%">-->
-                                    <a href=" https://facebook.com/wingxelZ">Facebook</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card" id="profile">
-                        <div class="card-header">
-                            <p style="float: right;">%---@---%</p>
-                            <img class="rounded-circle" src="img/res.jpg" alt="wingxel" width="10%">
-                        </div>
-                        <div class="card-body">
-                            <h3>Experience In</h3>
-                            <ul id="Exprnc">
-                                <li>Python 3</li>
-                                <li>JavaScript</li>
-                                <li>Java
-                                    <ul>
-                                        <li>Desktop | Android</li>
-                                    </ul>
-                                </li>
-                                <li>PHP</li>
-                                <li>C</li>
-                                <li>C++</li>
-                                <li>DB &gt; PostgreSQL | MySQL | SQLite</li>
-                                <li>HTML 5 | CSS 3 | Bootstrap</li>
-                                <li>Linux | Windows | Android</li>
-                                <li>Microsoft Office</li>
-                                <li>Computer troubleshooting and repair</li>
-                                <li>Video editing</li>
-                            </ul>
-                        </div>
-                        <div class="card-footer">
-                            <p id="qf">Qualification : CS</p>
-                        </div>
+                <div class="col-sm-8 mx-auto">
+                    <div class="container-fluid py-5">
+                        <h1 class="display-5 fw-bold" id="contacts" style="color: rgb(255, 81, 0);">Contacts</h1>
+                        <p class="col-md-8 fs-5" style="color: rgb(255, 81, 0);">You can contact me via the following
+                            links.</p>
+                        <ul id="Cont">
+                            <li id="Mail">
+                                <a href="mailto:wingxel@gmail.com">Email</a>
+                            </li>
+                            <li id="Fb">
+                                <a href=" https://facebook.com/wingxelZ">Facebook</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
         <hr>
         <div class="container-fluid" id="downloads">
+            <h3>Downloads</h3>
+            <hr>
+            <h6>File Sharing GUI Applications</h6>
             <div class="row">
-                <h3>Downloads</h3>
-                <!--<div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-header">
-                            <p>Image Viewer</p>
-                        </div>
-                        <div class="card-body">
-                            <img src="img/eidviewer_94042.png" alt="Image Viewer" width="20%">
-                            <p>
-                                Cross platform image viewer desktop application
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="https://" class="d_load">Download</a>
-                        </div>
-                    </div>
-                </div>-->
+                <div class="col-sm-4">
+                    <p>You can easily send and receive files or folders. Has the
+                        following features.</p>
+                    <ul>
+                        <li>No need to compress a folder in order to send.</li>
+                        <li>Easy to use GUI.</li>
+                        <li>You can send files from Windows to Linux and vice versa once you install.</li>
+                        <li>Easy install and uninstall.</li>
+                        <li>Does not need external Dependencies.</li>
+                    </ul>
+                </div>
                 <div class="col-sm-4">
                     <div class="card" id="app1">
                         <div class="card-header">
@@ -135,7 +97,8 @@
                             </p>
                         </div>
                         <div class="card-footer" id="Windows_app_1">
-                            <a href="https://drive.google.com/file/d/1a_sjw5QFWzncVrm57NFkcpAUaQSAoPzL/view?usp=sharing" class="d_loadA">Download</a>
+                            <a href="https://drive.google.com/file/d/1a_sjw5QFWzncVrm57NFkcpAUaQSAoPzL/view?usp=sharing"
+                                class="d_loadA">Download</a>
                         </div>
                     </div>
                 </div>
@@ -151,10 +114,61 @@
                             </p>
                         </div>
                         <div class="card-footer" id="Linux_app_1">
-                            <a href="https://drive.google.com/file/d/1ioHRLYEj4AOopgy0GrAXSw-qK2RTi02q/view?usp=sharing" class="d_loadA">Download</a>
+                            <a href="https://drive.google.com/file/d/1ioHRLYEj4AOopgy0GrAXSw-qK2RTi02q/view?usp=sharing"
+                                class="d_loadA">Download</a>
                         </div>
                     </div>
                 </div>
+            </div>
+            <hr>
+            <h6>File Sharing Console Applications</h6>
+            <div class="row">
+                <div class="col-sm-4">
+                    <p>Sends files and folders from command-line.</p>
+                    <ul>
+                        <li>No need to compress a folder in order to send.</li>
+                        <li>Occupies less disk space.</li>
+                        <li>It's a handy tool for sending and receiving files on command-line.</li>
+                        <li>No need to install.</li>
+                        <li>Does not need external Dependencies.</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card" id="app4">
+                        <div class="card-header">
+                            <p>Sender And Reciever (Linux AMD64)</p>
+                        </div>
+                        <div class="card-body">
+                            <img src="img/terminal.png" alt="FileShare Console Application" width="20%">
+                            <p>
+                                Linux AMD64 (6.9 MB).
+                            </p>
+                        </div>
+                        <div class="card-footer" id="Linux_app_2">
+                            <a href="https://" class="d_loadA">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card" id="app6">
+                        <div class="card-header">
+                            <p>Sender and Receiver (Windows x64)</p>
+                        </div>
+                        <div class="card-body">
+                            <img src="img/terminal.png" alt="FileShare Console Application" width="20%">
+                            <p>
+                                Windows x64 (6.0 MB).
+                            </p>
+                        </div>
+                        <div class="card-footer" id="Windows_app_2">
+                            <a href="https://" class="d_loadA">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <h6>Android Applications</h6>
+            <div class="row">
                 <div class="col-sm-4">
                     <div class="card" id="app3">
                         <div class="card-header">
@@ -167,7 +181,8 @@
                             </p>
                         </div>
                         <div class="card-footer" id="Android_app_1">
-                            <a href="https://drive.google.com/file/d/1oA_AyS8iABIlI-jnYKkaBcdV1YAEAD_t/view?usp=sharing" class="d_loadA">Download</a>
+                            <a href="https://drive.google.com/file/d/1oA_AyS8iABIlI-jnYKkaBcdV1YAEAD_t/view?usp=sharing"
+                                class="d_loadA">Download</a>
                         </div>
                     </div>
                 </div>
@@ -175,7 +190,7 @@
         </div>
         <hr>
 
-        <div class="navbar-expand-lg" id="dn">
+        <div class="navbar-expand-lg" id="dn" style="background-image: url(img/one.png);">
             <footer class="page-footer">
                 <div class="container-fluid text-md-left">
                     <div class="row">
