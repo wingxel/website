@@ -12,7 +12,7 @@ $(() => {
         if (query.length !== 0) {
             not_found.style.color = "red";
             setTimeout(() => {
-                not_found.style.color = "black";
+                not_found.style.color = "white";
                 not_found.value = "";
             }, 1000);
         } else {
