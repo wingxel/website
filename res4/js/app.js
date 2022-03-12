@@ -24,11 +24,12 @@ $(() => {
     const downloadButtons = document.querySelectorAll(".d_load");
     for (let button of Array.from(downloadButtons)) {
         button.addEventListener("click", event => {
+            let preText = button.textContent;
             button.textContent = "Link Error!";
             button.style.color = "red";
             setTimeout(() => {
-                button.style.color = "green";
-                button.textContent = "Download";
+                button.style.color = "rgb(255, 81, 0)";
+                button.textContent = preText;
             }, 700);
             event.preventDefault();
         });
