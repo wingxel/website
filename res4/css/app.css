@@ -34,7 +34,7 @@ h3{
 }
 
 #Android_app_1 :hover, #Linux_app_1 :hover, #Windows_app_1 :hover, #Mail :hover, #Fb :hover, 
-#Linux_app_2 :hover, #Linux_app_3 :hover, #Windows_app_2 :hover, #Windows_app_3 :hover {
+#Console-app :hover, #Linux_app_3 :hover, #Old-console :hover, #Windows_app_3 :hover {
     background-color: rgb(8, 61, 8);
     padding: 10px;
     color: rgb(255, 255, 255);
