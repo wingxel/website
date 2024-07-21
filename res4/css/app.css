@@ -3,13 +3,13 @@ body {
     padding-top: 4.5rem;
 }
 
-#downloads h3 {
+.M-title h4 {
     text-align: center;
     color: rgb(194, 216, 194);
     overflow: hidden;
 }
 
-#downloads h3::before, #downloads h3::after {
+.M-title h4::before, .M-title h4::after {
     background-color: grey;
     content: "";
     display: inline-block;
@@ -19,12 +19,12 @@ body {
     width: 50%;
 }
 
-#downloads h3::before {
+.M-title h4::before {
     right: 0.5em;
     margin-left: -50%;
 }
 
-#downloads h3::after {
+.M-title h4::after {
     left: 0.5em;
     margin-right: -50%;
 }
