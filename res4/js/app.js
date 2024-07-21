@@ -54,8 +54,8 @@ $(() => {
     googlePlayLink.on("click", clickPlayLinkEvent => {
         let p = googlePlayLink.text();
         googlePlayLink.text(
-            "Sorry! Apps on Google Play Store are not accessible due to unforeseen circumstances." +
-            " You can find my apps on Amazon App Store. Thanks!"
+            "Sorry! My apps on Google Play Store are not accessible due to unforeseen circumstances." +
+            " You can find them on Amazon App Store. Thanks!"
         );
         googlePlayLink.attr("class", "link-light");
         setTimeout(() => {
