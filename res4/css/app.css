@@ -42,7 +42,7 @@ h3{
     box-shadow: 2px 2px 2px 2px grey;
 }
 
-#Cont {
+#Cont, #store {
     list-style-type:square;
 }
 
