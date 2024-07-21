@@ -43,10 +43,10 @@ $(() => {
     websiteLink.on("click", clickWebsiteEvent => {
         let p = websiteLink.text();
         websiteLink.text("Sorry! website is down.");
-        websiteLink.css("color", "pink");
+        websiteLink.attr("class", "link-light");
         setTimeout(() => {
             websiteLink.text(p);
-            websiteLink.css("color", mColor);
+            websiteLink.attr("class", "link-secondary");
         }, 4000);
         clickWebsiteEvent.preventDefault();
     });
@@ -54,13 +54,13 @@ $(() => {
     googlePlayLink.on("click", clickPlayLinkEvent => {
         let p = googlePlayLink.text();
         googlePlayLink.text(
-            "Sorry! Google Play account has been disabled due to unforeseen circumstances." +
-            " You can find my apps on Amazon Appstore. Thanks!"
+            "Sorry! Apps on Google Play Store are not accessible due to unforeseen circumstances." +
+            " You can find my apps on Amazon App Store. Thanks!"
         );
-        googlePlayLink.css("color", "pink");
+        googlePlayLink.attr("class", "link-light");
         setTimeout(() => {
             googlePlayLink.text(p);
-            googlePlayLink.css("color", mColor);
+            googlePlayLink.attr("class", "link-secondary");
         }, 10000);
         clickPlayLinkEvent.preventDefault();
     });

@@ -26,26 +26,26 @@
     </div>
 
     <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "120684797690332");
-      chatbox.setAttribute("attribution", "biz_inbox");
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "120684797690332");
+        chatbox.setAttribute("attribution", "biz_inbox");
     </script>
 
     <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v18.0'
-        });
-      };
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v18.0'
+            });
+        };
 
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
     </script>
 
     <main id="min_cnt">
@@ -69,15 +69,17 @@
                         </li>
                     </ul>
                     <form class="d-flex" id="search_form">
-                        <input class="form-control me-2" style="background-color: rgb(27, 26, 26); color:white;" type="search" placeholder="Search" name="search_fm"
-                            aria-label="Search" id="result">
+                        <input class="form-control me-2" style="background-color: rgb(27, 26, 26); color:white;"
+                            type="search" placeholder="Search" name="search_fm" aria-label="Search" id="result">
                         <button class="btn btn-outline-success" name="submit" type="submit">Search</button>
                     </form>
                 </div>
             </div>
         </nav>
+
         <p id="home"></p>
         <hr>
+
         <div class="container-fluid" style="background-image: url(img/two.jpg);">
             <div class="row">
                 <div class="col-sm-8 mx-auto my-info">
@@ -85,169 +87,140 @@
                         <h1 class="display-5 fw-bold" id="contacts" style="color: rgb(255, 81, 0);">Contacts</h1>
                         <ul id="Cont">
                             <li id="Mail">
-                                <a href="mailto:wingxel@gmail.com" class="d_load_n">Email</a>
+                                <a href="mailto:wingxel@gmail.com" class="link-info">Email</a>
                             </li>
                             <li id="Fb">
-                                <a id="website_link" href="https://wingxel.com" target="_blank" class="d_load_n">Website</a>
+                                <a id="website_link" href="https://wingxel.com" target="_blank"
+                                    class="link-secondary">Website</a>
                             </li>
                         </ul>
                         <hr>
                         <h1 class="display-5 fw-bold" id="contacts" style="color: rgb(255, 81, 0);">Android Apps</h1>
                         <ul id="store">
                             <li id="Mail">
-                                <a href="https://www.amazon.com/s?i=mobile-apps&rh=p_4%3Awingxel&search-type=ss" class="d_load_n" target="_blank">Amazon Appstore</a>
+                                <a href="https://www.amazon.com/s?i=mobile-apps&rh=p_4%3Awingxel&search-type=ss"
+                                    class="link-info" target="_blank">Amazon Appstore</a>
                             </li>
                             <li id="Mail">
-                                <a id="googlePlay" href="https://play.google.com/store/apps/developer?id=wingxel" class="d_load_n" target="_blank">Google Play Store</a>
+                                <a id="googlePlay" href="https://play.google.com/store/apps/developer?id=wingxel"
+                                    class="link-secondary" target="_blank">Google Play Store</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid" id="downloads">
-            <hr>
-            <h3>Downloads</h3>
-            <hr>
-            <h6>File Sharing GUI Applications</h6>
-            <div class="row">
-                <div class="col-sm-4">
-                    <p>You can easily send and receive files or folders. Has the
-                        following features.</p>
-                    <ul>
-                        <li>No need to compress a folder in order to send.</li>
-                        <li>Easy to use GUI.</li>
-                        <li>You can send files from Windows to Linux and vice versa once you install.</li>
-                        <li>Easy install and uninstall.</li>
-                    </ul>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card" id="app1">
-                        <div class="card-header">
-                            <p>File-Share (Windows x64)</p>
-                        </div>
-                        <div class="card-body">
-                            <img src="img/icon.png" alt="File Share" width="20%">
-                            <p>
-                                File sharing application Windows x64.
-                            </p>
-                        </div>
-                        <div class="card-footer" id="Windows_app_1">
-                            <a href="https://drive.google.com/file/d/1x4lgY5dxR_n3kErLttbb8WHTrDQDQOT-/view?usp=sharing"
-                                class="d_loadA">Download</a>
-                        </div>
-                    </div>
-                    <p>For the app to run first install <a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist" target="_blank">Microsoft Visual C++ Redistributable</a></p>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card" id="app2">
-                        <div class="card-header">
-                            <p>File-Share (Linux AMD64)</p>
-                        </div>
-                        <div class="card-body">
-                            <img src="img/icon.png" alt="File Share" width="20%">
-                            <p>
-                                File sharing application Linux AMD64.
-                            </p>
-                        </div>
-                        <div class="card-footer" id="Linux_app_1">
-                            <a href="https://drive.google.com/file/d/1WL1wCtSRy29EjWEIgxvCeIP3g5qZNH1l/view?usp=sharing"
-                                class="d_loadA">Download</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <h6>File Sharing Console Applications</h6>
-            <div class="row">
-                <div class="col-sm-4">
-                    <p>Sends files and folders from command-line.</p>
-                    <ul>
-                        <li>No need to compress a folder in order to send.</li>
-                        <li>Occupies less disk space.</li>
-                        <li>It's a handy tool for sending and receiving files on command-line.</li>
-                        <li>No need to install.</li>
-                        <li>Does not need any addational software to run.</li>
-                    </ul>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card" id="app4">
-                        <div class="card-header">
-                            <p>Sender And Receiver (Latest versions)</p>
-                        </div>
-                        <div class="card-body">
-                            <img src="img/terminal.png" alt="FileShare Console Application" width="20%">
-                            <p>
-                                Download latest version from GitHub.
-                            </p>
-                        </div>
-                        <div class="card-footer" id="Console-app">
-                            <a href="https://github.com/wingxel/send-files-folder-net/releases/tag/py-share-v2.0" class="d_loadA">Download</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card" id="app6">
-                        <div class="card-header">
-                            <p>Sender and Receiver (Old versions)</p>
-                        </div>
-                        <div class="card-body">
-                            <img src="img/terminal.png" alt="FileShare Console Application" width="20%">
-                            <p>
-                                Download from Google drive.
-                            </p>
-                        </div>
-                        <div class="card-footer" id="Old-console">
-                            <a href="https://drive.google.com/drive/folders/14Ffd9P0cZ6ST55nnqNXN6aluQJs0n8rI?usp=sharing" class="d_loadA">Download</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         <hr>
 
-        <div class="navbar-expand-lg" id="dn" style="background-image: url(img/one.png);">
-            <footer class="page-footer">
-                <div class="container-fluid text-md-left">
-                    <div class="row">
-                        <div class="col-md-6 mt-md-0 mt-3">
-                            <h3 class="text-uppercase">Social</h3>
-                            <ul>
-                                <li>
-                                    <img src="img/mail-app.png" alt="inst" width="3%">
-                                    <a href="mailto:wingxel@gmail.com" class="d_load_n">Email</a>
-                                </li>
-                                <li>
-                                    <img src="img/twiter.png" alt="inst" width="3%">
-                                    <a href="https://twitter.com/wingxel" target="_blank" class="d_load_n">Twitter</a>
-                                </li>
-                                <li>
-                                    <img src="img/facebook.png" alt="fcb" width="3%">
-                                    <a href="https://web.facebook.com/wingxel32" target="_blank" class="d_load_n">Facebook</a>
-                                </li>
-                                <li>
-                                    <img src="img/play.png" alt="inst" width="3%">
-                                    <a href="https://play.google.com/store/apps/developer?id=wingxel" target="_blank" class="d_load_n">Google Play Store</a>
-                                </li>
-                            </ul>
+        <div class="container-fluid mb-4" id="downloads">
+            <div class="mt-5 mb-5"><h3>File Sharing GUI Applications</h3></div>
+
+            <div class="row justify-content-center">
+                <div class="col-sm-3">
+                    <div class="card" id="app1">
+                        <div class="card-header text-center">
+                            File-Share (Windows x64)
                         </div>
-                        <hr class="clearfix w-100 d-md-none pb-3">
-                        <div class="col-md-3 mb-md-0 mb-3">
-                            <h5 class="text-uppercase" id="empty_h5"></h5>
+                        <div class="card-body d-flex justify-content-center">
+                            <img src="img/icon.png" alt="File Share" width="20%">
                         </div>
-                        <div class="col-md-3 mb-md-0 mb-3">
-                            <h3 class="text-uppercase">Navigate</h3>
-                            <ul class="list-unstyled">
-                                <li><a class="fa fa-home" href="#home">Home</a></li>
-                                <li><a class="fa fa-download" href="#contacts">Contacts</a></li>
-                                <li><a class="fa fa-phone" href="#downloads">Downloads</a></li>
-                            </ul>
+                        <div class="card-footer text-center d-grid gap-2">
+                            <a class="btn btn-outline-primary" role="button"
+                                href="https://drive.google.com/file/d/1x4lgY5dxR_n3kErLttbb8WHTrDQDQOT-/view?usp=sharing">Download</a>
                         </div>
                     </div>
                 </div>
-                <div class="footer-copyright text-center py-3">
-                    <h5 class="text-uppercase">&copy;wingxel <cite id="dt_d"></cite></h5>
+                <div class="col-sm-3">
+                    <div class="card" id="app2">
+                        <div class="card-header text-center">
+                            File-Share (Linux AMD64)
+                        </div>
+                        <div class="card-body d-flex justify-content-center">
+                            <img src="img/icon.png" alt="File Share" width="20%">
+                        </div>
+                        <div class="card-footer text-center d-grid gap-2">
+                            <a href="https://drive.google.com/file/d/1WL1wCtSRy29EjWEIgxvCeIP3g5qZNH1l/view?usp=sharing"
+                                class="btn btn-outline-primary" role="button">Download</a>
+                        </div>
+                    </div>
                 </div>
-            </footer>
+            </div>
+
+            <div class="mt-5 mb-5"><h3>File Sharing Console Applications</h3></div>
+
+            <div class="row justify-content-center">
+                <div class="col-sm-3">
+                    <div class="card" id="app4">
+                        <div class="card-header text-center">
+                            File-Share (Latest versions)
+                        </div>
+                        <div class="card-body d-flex justify-content-center">
+                            <img src="img/terminal.png" alt="FileShare Console Application" width="20%">
+                        </div>
+                        <div class="card-footer text-center d-grid gap-2">
+                            <a href="https://github.com/wingxel/send-files-folder-net/releases/tag/py-share-v2.0"
+                                class="btn btn-outline-primary" role="button">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" id="app6">
+                        <div class="card-header text-center">
+                            Sender and Receiver (Old versions)
+                        </div>
+                        <div class="card-body d-flex justify-content-center">
+                            <img src="img/terminal.png" alt="FileShare Console Application" width="20%">
+                        </div>
+                        <div class="card-footer text-center d-grid gap-2">
+                            <a href="https://drive.google.com/drive/folders/14Ffd9P0cZ6ST55nnqNXN6aluQJs0n8rI?usp=sharing"
+                                class="btn btn-outline-primary" role="button">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="container-fluid">
+            <div class="navbar-expand-lg my-info" id="dn" style="background-image: url(img/one.png);">
+                <footer class="page-footer">
+                    <div class="container-fluid text-md-left">
+                        <div class="row">
+                            <div class="col-md-6 mt-md-0 mt-3">
+                                <h3 class="text-uppercase">Social</h3>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="mailto:wingxel@gmail.com">Email</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/wingxel" target="_blank">Twitter</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://web.facebook.com/wingxel32" target="_blank">Facebook</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <hr class="clearfix w-100 d-md-none pb-3">
+                            <div class="col-md-3 mb-md-0 mb-3">
+                                <h5 class="text-uppercase" id="empty_h5"></h5>
+                            </div>
+                            <div class="col-md-3 mb-md-0 mb-3">
+                                <h3 class="text-uppercase">Navigate</h3>
+                                <ul class="list-unstyled">
+                                    <li><a class="fa fa-home" href="#home">Home</a></li>
+                                    <li><a class="fa fa-download" href="#contacts">Contacts</a></li>
+                                    <li><a class="fa fa-phone" href="#downloads">Downloads</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-copyright text-center py-3">
+                        <h5 class="text-uppercase">&copy;wingxel <cite id="dt_d"></cite></h5>
+                    </div>
+                </footer>
+            </div>
         </div>
     </main>
 </body>

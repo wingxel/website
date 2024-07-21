@@ -3,43 +3,44 @@ body {
     padding-top: 4.5rem;
 }
 
-h6 {
+#downloads h3 {
     text-align: center;
-    color: green;
+    color: rgb(194, 216, 194);
+    overflow: hidden;
+}
+
+#downloads h3::before, #downloads h3::after {
+    background-color: grey;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+#downloads h3::before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+#downloads h3::after {
+    left: 0.5em;
+    margin-right: -50%;
 }
 
 #min_cnt{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /*font-size: 18px;*/
-}
-
-a{
-    text-decoration: none;
-    color: rgb(255, 81, 0);
-}
-
-.d_loadA {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
 }
 
 #app1, #app2, #app3, #app4, #app5, #app6, #app7 {
-    background-color: rgb(8, 8, 8);
+    background-color: rgb(14, 13, 13);
     margin-top: 10px;
     color: rgb(255, 255, 255);
 }
 
-h3{
+.my-info h3 {
     color: rgb(255, 145, 1);
-}
-
-#Android_app_1 :hover, #Linux_app_1 :hover, #Windows_app_1 :hover, #Mail :hover, #Fb :hover, 
-#Console-app :hover, #Linux_app_3 :hover, #Old-console :hover, #Windows_app_3 :hover {
-    background-color: rgb(8, 61, 8);
-    padding: 10px;
-    color: rgb(255, 255, 255);
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px 2px grey;
 }
 
 .my-info {
@@ -52,10 +53,6 @@ h3{
 }
 
 #Cont, #store {
-    list-style-type:square;
-}
-
-#Exprnc {
     list-style-type:square;
 }
 
