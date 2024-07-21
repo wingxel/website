@@ -42,6 +42,15 @@ h3{
     box-shadow: 2px 2px 2px 2px grey;
 }
 
+.my-info {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.my-info li {
+    font-weight: bold;
+    padding-bottom: 9px;
+}
+
 #Cont, #store {
     list-style-type:square;
 }
